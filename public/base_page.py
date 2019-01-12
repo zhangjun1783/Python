@@ -27,13 +27,13 @@ class BasePage(object):
         self.log = Log().get_logger()
         self.url = url
         # 启动浏览器
-        # self.driver = webdriver.Ie()
+        self.driver = webdriver.Ie()
         # self.driver = webdriver.Edge()
-        self.driver = webdriver.Firefox()
+        # self.driver = webdriver.Firefox()
         # self.driver = webdriver.Chrome()
         self.driver.get(self.url)
         self.driver.maximize_window()
-        # driver.implicitly_wait(5)  # 隐式等待
+        #driver.implicitly_wait(5)  # 隐式等待
 
     def get_driver(self):
         return self.driver
@@ -230,11 +230,11 @@ class BasePage(object):
     def open_new_window(self, css):
         try:
             original_windows = self.driver.current_window_handle
-            self.element_wait(css).click() # 点击元素打开新窗口
+            self.element_wait(css).click()  # 点击元素打开新窗口
             all_handles = self.driver.window_handles
             for handle in all_handles:
                 if handle != original_windows:
-                    self.driver.switch_to.window(handle) # 切换到新窗口
+                    self.driver.switch_to.window(handle)  # 切换到新窗口
         except Exception as e:
             self.log.error("Failed to open_new_window with %s" % e)
             self.take_screenshot('open_new_window_failure')
@@ -326,19 +326,26 @@ class BasePage(object):
         messages = 'Element: {0} not found in {1} seconds.'.format(css, secs)
 
         if by == "i" or by == 'id':
-            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.ID, value)), messages)
+            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.ID, value)),
+                                                                messages)
         elif by == "n" or by == 'name':
-            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.NAME, value)),messages)
+            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.NAME, value)),
+                                                                messages)
         elif by == "c" or by == 'class':
-            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.CLASS_NAME, value)),messages)
+            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.CLASS_NAME, value)),
+                                                                messages)
         elif by == "l" or by == 'link_text':
-            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.LINK_TEXT, value)),messages)
+            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.LINK_TEXT, value)),
+                                                                messages)
         elif by == "p" or by == 'partial_link_text':
-            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, value)), messages)
+            element = WebDriverWait(self.driver, secs, 1).until(
+                EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, value)), messages)
         elif by == "x" or by == 'xpath':
-            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.XPATH, value)),messages)
+            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.XPATH, value)),
+                                                                messages)
         elif by == "s" or by == 'css':
-            element = WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.CSS_SELECTOR, value)), messages)
+            element = WebDriverWait(self.driver, secs, 1).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, value)), messages)
         else:
             raise NameError(
                 "elements must is,'id','name','class','link_text','partial_link_text','xpaht','css'.")

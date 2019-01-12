@@ -1,0 +1,2700 @@
+2019-01-12 15:00:12,442 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:00:12,443 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "4a7e96d8-be8d-40be-bc0c-919c3f527c21", 
+    "X-Request-Start": "1547276412277"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=1"
+}
+
+2019-01-12 15:00:13,665 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:00:13,665 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "6865112b-1380-4724-b97a-6a12c75ba7fc", 
+    "X-Request-Start": "1547276413504"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=2"
+}
+
+2019-01-12 15:00:14,728 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:00:14,728 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "64940aa5-ca51-4b88-9448-b68ef2cae7df", 
+    "X-Request-Start": "1547276414587"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=3"
+}
+
+2019-01-12 15:00:15,914 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:00:15,914 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "4"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "5af14aff-b71e-4b92-9bd1-49f727590c1c", 
+    "X-Request-Start": "1547276415745"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=4"
+}
+
+2019-01-12 15:00:17,183 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:00:17,184 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "5"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "20b8331a-c6e1-40c3-bbc3-5a93c4250a5e", 
+    "X-Request-Start": "1547276417027"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=5"
+}
+
+2019-01-12 15:00:18,302 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:00:18,303 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "6"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "68d04610-4e85-4b23-82a9-6acd744542e6", 
+    "X-Request-Start": "1547276418172"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=6"
+}
+
+2019-01-12 15:00:19,848 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:00:19,848 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "7"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "7196a64d-2aa6-4792-92c3-1c2c84c5a521", 
+    "X-Request-Start": "1547276419421"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=7"
+}
+
+2019-01-12 15:00:21,479 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:00:21,479 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "8"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "60af3521-6f4f-42fb-95d5-21a9aa10e414", 
+    "X-Request-Start": "1547276420896"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=8"
+}
+
+2019-01-12 15:00:23,467 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:00:23,467 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "9"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "7f6c94f1-37b6-46ac-ad2c-4803cc618489", 
+    "X-Request-Start": "1547276422494"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=9"
+}
+
+2019-01-12 15:00:25,144 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:00:25,144 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "10"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "5d065008-6608-41be-9e06-484acf1751ab", 
+    "X-Request-Start": "1547276424594"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=10"
+}
+
+2019-01-12 15:00:26,389 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:00:26,389 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "11"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "7b2ed56a-36b0-441d-9e23-4bedd0569082", 
+    "X-Request-Start": "1547276426253"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=11"
+}
+
+2019-01-12 15:00:27,658 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:00:27,658 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "12"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "5c344bb1-1874-46cf-984e-53e0fc5797e1", 
+    "X-Request-Start": "1547276427394"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=12"
+}
+
+2019-01-12 15:01:52,638 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:01:52,639 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "d0ab2902-d364-4030-ae2d-07ce4ad6ecae", 
+    "X-Request-Start": "1547276512399"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=1"
+}
+
+2019-01-12 15:01:54,081 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:01:54,082 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "f038291d-e33b-4e55-abb0-992b0e0178a6", 
+    "X-Request-Start": "1547276513635"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=2"
+}
+
+2019-01-12 15:01:55,404 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:01:55,404 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "a0d8391f-dea0-4b6f-acce-4939337604a2", 
+    "X-Request-Start": "1547276515151"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=3"
+}
+
+2019-01-12 15:01:56,569 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:01:56,570 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "4"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "4ddef7ed-ada2-4a88-816a-fd98b636bd99", 
+    "X-Request-Start": "1547276516389"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=4"
+}
+
+2019-01-12 15:01:57,685 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:01:57,685 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "5"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "bfa0a046-f734-4088-8bd4-87aa5fbc592d", 
+    "X-Request-Start": "1547276517572"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=5"
+}
+
+2019-01-12 15:01:58,926 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:01:58,926 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "6"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "7a7856fd-7f18-452b-ad70-6b17e2398eda", 
+    "X-Request-Start": "1547276518706"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=6"
+}
+
+2019-01-12 15:02:00,166 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:02:00,166 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "7"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "85ccf2e9-e3c9-4f97-b8a3-2cb59b7b5a1a", 
+    "X-Request-Start": "1547276519987"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=7"
+}
+
+2019-01-12 15:02:01,881 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:02:01,882 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "8"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "b7570d5e-0a2c-4b8b-8f5b-1912e79df4e4", 
+    "X-Request-Start": "1547276521159"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=8"
+}
+
+2019-01-12 15:02:02,957 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:02:02,958 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "9"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "5cd04021-2118-4ffb-bdf0-a4cfba724038", 
+    "X-Request-Start": "1547276522834"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=9"
+}
+
+2019-01-12 15:02:04,101 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:02:04,102 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "10"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "c2233e42-385d-4211-8c07-a5ec80747e2f", 
+    "X-Request-Start": "1547276523947"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=10"
+}
+
+2019-01-12 15:02:05,628 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:02:05,628 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "11"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "9c86b705-4cee-4987-8199-9f2ab1e55c64", 
+    "X-Request-Start": "1547276525122"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=11"
+}
+
+2019-01-12 15:02:06,685 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:02:06,686 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "12"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "e1aeeb81-fa4a-4053-a471-58ad4a2e906c", 
+    "X-Request-Start": "1547276526571"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=12"
+}
+
+2019-01-12 15:09:17,942 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:09:17,943 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "17316bfe-0921-4a8d-961b-8073e8e4d9e8", 
+    "X-Request-Start": "1547276957228"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=1"
+}
+
+2019-01-12 15:09:24,446 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:09:24,446 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "bf9a7ac3-fa14-4f68-a052-d1fb989299db", 
+    "X-Request-Start": "1547276964298"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=2"
+}
+
+2019-01-12 15:09:25,735 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:09:25,736 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "a7c51a52-d32d-49de-82cf-b417aedce9e1", 
+    "X-Request-Start": "1547276965565"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=3"
+}
+
+2019-01-12 15:09:28,945 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:09:28,946 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "4"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "8019a645-97ee-4f1f-929b-0ca312b775e0", 
+    "X-Request-Start": "1547276966741"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=4"
+}
+
+2019-01-12 15:09:31,220 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:09:31,220 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "5"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "176b156c-a5ee-40a0-a17a-f5df45628e1b", 
+    "X-Request-Start": "1547276970964"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=5"
+}
+
+2019-01-12 15:09:32,929 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:09:32,929 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "6"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "72e2c945-3db2-4717-9e4f-3e96b024f0f3", 
+    "X-Request-Start": "1547276972201"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=6"
+}
+
+2019-01-12 15:09:34,762 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:09:34,763 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "7"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "db31be04-9906-4a60-8f63-2d894c891cf4", 
+    "X-Request-Start": "1547276973986"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=7"
+}
+
+2019-01-12 15:09:36,917 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:09:36,917 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "8"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "7c3411e2-10e9-4486-93c0-389838fab10d", 
+    "X-Request-Start": "1547276976092"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=8"
+}
+
+2019-01-12 15:09:38,394 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:09:38,394 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "9"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "f1843d43-20b9-4768-9171-002efeff9e3d", 
+    "X-Request-Start": "1547276978112"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=9"
+}
+
+2019-01-12 15:09:39,754 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:09:39,755 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "10"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "a9c82c24-547f-4576-8f2a-890ebe9bed7c", 
+    "X-Request-Start": "1547276979579"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=10"
+}
+
+2019-01-12 15:09:41,130 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:09:41,130 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "11"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "be9bb7ee-0c54-404e-b15e-f5f5bf7c976c", 
+    "X-Request-Start": "1547276980944"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=11"
+}
+
+2019-01-12 15:09:42,560 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:09:42,561 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "12"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "fcd4a79c-58d3-4341-8391-092d319ece16", 
+    "X-Request-Start": "1547276982333"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=12"
+}
+
+2019-01-12 15:13:29,253 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:13:29,255 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "6d68cdc9-d31f-41e2-b1ab-4519a70cc3cd", 
+    "X-Request-Start": "1547277209078"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=1"
+}
+
+2019-01-12 15:13:30,554 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:13:30,554 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "9ae5871f-2579-41a5-abdf-ee7f0baddaaf", 
+    "X-Request-Start": "1547277210389"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=2"
+}
+
+2019-01-12 15:13:32,435 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:13:32,435 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "844e28b8-b081-48b5-8ee8-d6ddc30472db", 
+    "X-Request-Start": "1547277212298"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=3"
+}
+
+2019-01-12 15:13:33,706 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:13:33,706 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "4"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "1009cb10-bd34-4449-98bd-7cfabe0e5645", 
+    "X-Request-Start": "1547277213554"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=4"
+}
+
+2019-01-12 15:13:34,864 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:13:34,865 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "5"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "52a60bca-d95f-4d0f-9e37-ab48ebf9206c", 
+    "X-Request-Start": "1547277214711"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=5"
+}
+
+2019-01-12 15:13:36,239 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:13:36,239 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "6"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "c47746ec-0992-4dbe-9533-1b9a0f4e8d12", 
+    "X-Request-Start": "1547277216074"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=6"
+}
+
+2019-01-12 15:13:37,590 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:13:37,591 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "7"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "25bb10f4-8655-4a7e-a8eb-5ff3bd06c1bc", 
+    "X-Request-Start": "1547277217380"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=7"
+}
+
+2019-01-12 15:13:38,852 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:13:38,853 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "8"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "b6b7287c-52f2-49ee-8447-75775378dd0b", 
+    "X-Request-Start": "1547277218698"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=8"
+}
+
+2019-01-12 15:13:40,125 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:13:40,125 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "9"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "884030bd-28ca-48e9-abb3-4a3d08395408", 
+    "X-Request-Start": "1547277219972"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=9"
+}
+
+2019-01-12 15:13:41,297 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:13:41,297 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "10"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "131df1d0-a7fa-4a72-9d68-6bd91d7b68d7", 
+    "X-Request-Start": "1547277221172"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=10"
+}
+
+2019-01-12 15:13:42,607 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:13:42,608 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "11"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "0b4773a4-c3b9-4d9e-b6f3-048cbc0c3161", 
+    "X-Request-Start": "1547277222324"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=11"
+}
+
+2019-01-12 15:13:43,795 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:13:43,796 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "12"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "8", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "3379b484-c388-4dd6-b97a-da97d9b079e1", 
+    "X-Request-Start": "1547277223615"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=12"
+}
+
+2019-01-12 15:16:08,967 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:16:08,968 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "6d3580f2-5d59-4adb-afa1-b5db389af8fe", 
+    "X-Request-Start": "1547277368823"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=1"
+}
+
+2019-01-12 15:16:10,208 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:16:10,208 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "8f00ddac-5290-4e33-92b2-93a2dee189a9", 
+    "X-Request-Start": "1547277370044"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=2"
+}
+
+2019-01-12 15:16:11,424 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:16:11,424 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "d64e2e07-a17c-405e-a18b-2b4f94de4e7e", 
+    "X-Request-Start": "1547277371294"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=3"
+}
+
+2019-01-12 15:16:12,636 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:16:12,636 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "4"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "52fd8b16-30ca-4f5d-b6be-255793067a99", 
+    "X-Request-Start": "1547277372467"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=4"
+}
+
+2019-01-12 15:16:13,983 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:16:13,983 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "5"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "310fe83b-0118-4d6e-8284-c0a26d081f9f", 
+    "X-Request-Start": "1547277373752"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=5"
+}
+
+2019-01-12 15:16:15,243 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:16:15,244 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "6"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "6a099f67-487d-456a-af26-09b20fa6533e", 
+    "X-Request-Start": "1547277375101"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=6"
+}
+
+2019-01-12 15:16:16,498 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:16:16,499 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "7"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "2f51207e-e121-462b-9d71-2fb8585d69b5", 
+    "X-Request-Start": "1547277376349"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=7"
+}
+
+2019-01-12 15:16:17,752 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:16:17,752 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "8"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "0909d093-2184-4d09-9918-e74a4bb3f2c5", 
+    "X-Request-Start": "1547277377595"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=8"
+}
+
+2019-01-12 15:16:19,178 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:16:19,178 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "9"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "3", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "305cff18-6a49-468e-a198-9a019fb505dd", 
+    "X-Request-Start": "1547277378831"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=9"
+}
+
+2019-01-12 15:16:20,464 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:16:20,464 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "10"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "698e5f36-22c9-4cbf-b5a6-72000fac79e2", 
+    "X-Request-Start": "1547277380324"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=10"
+}
+
+2019-01-12 15:16:21,636 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:16:21,636 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "11"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "75a96bde-a10c-4ece-ac07-3efdbb4e2185", 
+    "X-Request-Start": "1547277381492"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=11"
+}
+
+2019-01-12 15:16:22,875 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:16:22,875 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "12"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "828ffdda-9a12-454b-a5f7-0eb4b6a4efa9", 
+    "X-Request-Start": "1547277382706"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=12"
+}
+
+2019-01-12 15:24:30,115 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:24:30,117 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "b7a547b8-a7c4-4524-b6ed-6fdcda345330", 
+    "X-Request-Start": "1547277869975"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=1"
+}
+
+2019-01-12 15:24:31,243 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:24:31,243 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "4bde52a7-ed20-49cd-8e87-5298b13e6c90", 
+    "X-Request-Start": "1547277871095"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=2"
+}
+
+2019-01-12 15:24:32,907 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:24:32,907 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "74414282-06ed-4789-98d3-c10a93dd11fa", 
+    "X-Request-Start": "1547277872259"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=3"
+}
+
+2019-01-12 15:24:34,290 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:24:34,290 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "4"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "7c129b9a-fb1c-4f4b-8c19-5aff7b67fb87", 
+    "X-Request-Start": "1547277873888"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=4"
+}
+
+2019-01-12 15:24:35,404 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:24:35,404 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "5"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "734f8773-33d2-4f0a-ac88-59531e500f43", 
+    "X-Request-Start": "1547277875274"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=5"
+}
+
+2019-01-12 15:24:36,596 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:24:36,597 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "6"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "87c780cd-8f78-4737-a0c0-80d1d1157426", 
+    "X-Request-Start": "1547277876416"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=6"
+}
+
+2019-01-12 15:24:37,712 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:24:37,712 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "7"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "1d3346a4-bfb6-4ab2-8484-a8ac8eba68dc", 
+    "X-Request-Start": "1547277877577"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=7"
+}
+
+2019-01-12 15:24:38,927 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:24:38,927 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "8"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "408bbf05-d37d-4a78-b7b1-c4656f09d7f4", 
+    "X-Request-Start": "1547277878709"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=8"
+}
+
+2019-01-12 15:24:40,499 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:24:40,504 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "9"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "6dc86d20-1f71-4878-a0dc-5a98d050fb9d", 
+    "X-Request-Start": "1547277879957"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=9"
+}
+
+2019-01-12 15:24:41,830 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:24:41,830 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "10"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "45312669-ab5a-4a21-956a-10a4f2c37cfc", 
+    "X-Request-Start": "1547277881624"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=10"
+}
+
+2019-01-12 15:24:43,008 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:24:43,009 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "11"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "96a25524-ba63-45ff-befb-add5bdc87cd1", 
+    "X-Request-Start": "1547277882890"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=11"
+}
+
+2019-01-12 15:24:44,131 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:24:44,132 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "12"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "82598f4a-3dcc-4405-93cd-be23903ede9d", 
+    "X-Request-Start": "1547277883993"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=12"
+}
+
+2019-01-12 15:26:50,572 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:26:50,575 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "e11bb27d-c7f0-4d43-b3ed-824416f95e7c", 
+    "X-Request-Start": "1547278010442"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=1"
+}
+
+2019-01-12 15:26:51,763 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:26:51,763 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "9a6a359e-8380-43fa-9d31-35f3780fc905", 
+    "X-Request-Start": "1547278011604"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=2"
+}
+
+2019-01-12 15:26:53,053 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:26:53,054 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "6f3285c0-1554-4a77-8a26-de5148990de8", 
+    "X-Request-Start": "1547278012913"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=3"
+}
+
+2019-01-12 15:26:54,333 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:26:54,334 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "4"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "2afe4893-e150-4de3-a617-2ba600d5792b", 
+    "X-Request-Start": "1547278014169"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=4"
+}
+
+2019-01-12 15:26:56,599 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:26:56,599 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "5"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "9949932e-c6f4-479f-8fc5-202ffb498b1f", 
+    "X-Request-Start": "1547278016447"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=5"
+}
+
+2019-01-12 15:26:57,765 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:26:57,766 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "6"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "5a13fd71-862c-4438-87de-1146fa8341de", 
+    "X-Request-Start": "1547278017647"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=6"
+}
+
+2019-01-12 15:26:58,911 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:26:58,911 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "7"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "38bf83e9-a949-4eae-b687-88a102be4946", 
+    "X-Request-Start": "1547278018795"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=7"
+}
+
+2019-01-12 15:27:00,085 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:27:00,086 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "8"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "f1257590-2973-439f-85e7-ef91ce6bc3a1", 
+    "X-Request-Start": "1547278019964"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=8"
+}
+
+2019-01-12 15:27:01,599 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:27:01,599 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "9"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "8610a72b-d72e-475c-b2ae-6c554e61561c", 
+    "X-Request-Start": "1547278021222"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=9"
+}
+
+2019-01-12 15:27:02,902 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:27:02,902 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "10"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "d106a93e-a741-433f-936c-84d98fe39dbe", 
+    "X-Request-Start": "1547278022739"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=10"
+}
+
+2019-01-12 15:27:04,043 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:27:04,043 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "11"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "df42f9a1-4e79-402d-909b-f71658f20a00", 
+    "X-Request-Start": "1547278023932"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=11"
+}
+
+2019-01-12 15:27:05,360 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:27:05,360 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "12"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "8b80b68d-343f-4192-8ab8-1704c0b78547", 
+    "X-Request-Start": "1547278025193"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=12"
+}
+
+2019-01-12 15:42:34,415 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:42:34,416 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "e0b660ce-3218-44b4-b7b2-a21194d08ac8", 
+    "X-Request-Start": "1547278954200"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=1"
+}
+
+2019-01-12 15:42:39,096 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:42:39,097 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "311c96e2-a87c-45f0-8fa3-40775865d9fa", 
+    "X-Request-Start": "1547278958921"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=2"
+}
+
+2019-01-12 15:42:43,007 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:42:43,007 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "fe034da4-dbbe-4f2e-b2a2-d74425e057ec", 
+    "X-Request-Start": "1547278962686"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=3"
+}
+
+2019-01-12 15:42:45,190 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:42:45,191 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "4"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "2e2cd7a7-eaea-416c-a40f-328645cefeee", 
+    "X-Request-Start": "1547278965038"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=4"
+}
+
+2019-01-12 15:42:46,362 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:42:46,363 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "5"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "6d16a927-00a4-4b2e-befa-8d52061cc2e2", 
+    "X-Request-Start": "1547278966236"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=5"
+}
+
+2019-01-12 15:42:47,702 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:42:47,702 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "6"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "8f965327-1315-4dab-ab82-a112e17dcc5a", 
+    "X-Request-Start": "1547278967542"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=6"
+}
+
+2019-01-12 15:42:48,871 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:42:48,872 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "7"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "7c7703a0-a9b0-471f-b548-a43ede273fdf", 
+    "X-Request-Start": "1547278968756"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=7"
+}
+
+2019-01-12 15:42:50,055 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:42:50,056 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "8"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "21027bb2-d3e5-4f28-8685-bad026538513", 
+    "X-Request-Start": "1547278969934"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=8"
+}
+
+2019-01-12 15:42:51,459 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:42:51,459 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "9"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "b103a467-1dcd-4cee-bae6-3a02ac21a82f", 
+    "X-Request-Start": "1547278971234"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=9"
+}
+
+2019-01-12 15:42:54,883 - interface_test.py - 32 : 检查点->：200
+2019-01-12 15:42:54,883 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "10"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "702c4794-07e3-48ef-b32f-8671817d402c", 
+    "X-Request-Start": "1547278973999"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=10"
+}
+
+2019-01-12 15:42:57,384 - interface_test.py - 32 : 检查点->：201
+2019-01-12 15:42:57,384 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "11"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "9d47134f-24cc-4920-938b-f0a612b80695", 
+    "X-Request-Start": "1547278977183"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=11"
+}
+
+2019-01-12 15:42:58,835 - interface_test.py - 32 : 检查点->：close
+2019-01-12 15:42:58,837 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "12"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "542f59e2-b13d-4934-b2c7-78ac3e4c33ce", 
+    "X-Request-Start": "1547278978554"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=12"
+}
+
+2019-01-12 16:10:06,138 - interface_test.py - 32 : 检查点->：200
+2019-01-12 16:10:06,139 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "1"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "3381f7c0-c122-4573-84b5-13f9f926bf33", 
+    "X-Request-Start": "1547280605510"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=1"
+}
+
+2019-01-12 16:10:08,313 - interface_test.py - 32 : 检查点->：201
+2019-01-12 16:10:08,314 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "c1b67c6d-b6ba-4969-89f4-0c23583c6119", 
+    "X-Request-Start": "1547280607248"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=2"
+}
+
+2019-01-12 16:10:10,006 - interface_test.py - 32 : 检查点->：close
+2019-01-12 16:10:10,006 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "3"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "09d16abe-f615-4c2a-b30d-8063ee1b5710", 
+    "X-Request-Start": "1547280609415"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=3"
+}
+
+2019-01-12 16:10:11,108 - interface_test.py - 32 : 检查点->：200
+2019-01-12 16:10:11,109 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "4"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "e4cb085a-b14e-4432-b1dc-db587f22d94d", 
+    "X-Request-Start": "1547280611005"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=4"
+}
+
+2019-01-12 16:10:12,335 - interface_test.py - 32 : 检查点->：201
+2019-01-12 16:10:12,336 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "5"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "e783478b-742a-495f-90b5-f71d8baf2403", 
+    "X-Request-Start": "1547280612180"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=5"
+}
+
+2019-01-12 16:10:13,644 - interface_test.py - 32 : 检查点->：close
+2019-01-12 16:10:13,645 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "6"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "4e127169-694d-4209-bad4-2be9a5bfc68d", 
+    "X-Request-Start": "1547280613531"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=6"
+}
+
+2019-01-12 16:10:14,917 - interface_test.py - 32 : 检查点->：200
+2019-01-12 16:10:14,917 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "7"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "b26cbbd9-6a37-4559-bc6d-badbb9ada013", 
+    "X-Request-Start": "1547280614738"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=7"
+}
+
+2019-01-12 16:10:16,072 - interface_test.py - 32 : 检查点->：201
+2019-01-12 16:10:16,072 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "8"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "78bf0f48-f8cb-45c1-908c-20d2fc0fced9", 
+    "X-Request-Start": "1547280615972"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=8"
+}
+
+2019-01-12 16:10:17,222 - interface_test.py - 32 : 检查点->：close
+2019-01-12 16:10:17,222 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "9"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "938c6e42-298a-41e4-9381-20c7c532deff", 
+    "X-Request-Start": "1547280617084"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=9"
+}
+
+2019-01-12 16:10:18,306 - interface_test.py - 32 : 检查点->：200
+2019-01-12 16:10:18,307 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "10"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "5d67314b-cd33-46f7-844c-0f512a550d77", 
+    "X-Request-Start": "1547280618220"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=10"
+}
+
+2019-01-12 16:10:19,359 - interface_test.py - 32 : 检查点->：201
+2019-01-12 16:10:19,359 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "11"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "0", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "1", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "0b723215-350a-4c12-bdbb-c83c9209cf1d", 
+    "X-Request-Start": "1547280619273"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=11"
+}
+
+2019-01-12 16:10:20,628 - interface_test.py - 32 : 检查点->：close
+2019-01-12 16:10:20,628 - interface_test.py - 33 : 实际返回结果->：{
+  "args": {
+    "show_env": "12"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Connect-Time": "1", 
+    "Connection": "close", 
+    "Content-Length": "2", 
+    "Host": "httpbin.org", 
+    "Total-Route-Time": "0", 
+    "User-Agent": "python-requests/2.19.1", 
+    "Via": "1.1 vegur", 
+    "X-Forwarded-For": "101.81.15.143", 
+    "X-Forwarded-Port": "443", 
+    "X-Forwarded-Proto": "https", 
+    "X-Request-Id": "b337be1e-6e1b-40c8-abb3-7630488b7a5c", 
+    "X-Request-Start": "1547280620410"
+  }, 
+  "origin": "101.81.15.143", 
+  "url": "https://httpbin.org/get?show_env=12"
+}
+
