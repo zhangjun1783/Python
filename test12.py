@@ -9,3 +9,4 @@ os.environ["webdriver.ie.driver"] = iedriver #设置环境变量
 driver = webdriver.Ie(iedriver)
 driver.get(url)
 driver.close()
+#11222  
