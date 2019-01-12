@@ -8,4 +8,4 @@ iedriver ='C:\Program Files (x86)\Python37-32\IEDriverServer.exe' #iedriver路�
 os.environ["webdriver.ie.driver"] = iedriver #设置环境变量
 driver = webdriver.Ie(iedriver)
 driver.get(url)
-driver.close()
+#driver.close()
