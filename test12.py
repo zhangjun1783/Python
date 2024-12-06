@@ -4,9 +4,9 @@ from selenium import webdriver
 import os
 
 url='http://www.baidu.com'
-iedriver ='C:\Program Files (x86)\Python37-32\IEDriverServer.exe' #iedriver路径
+#iedriver ='C:\Program Files (x86)\Python37-32\IEDriverServer.exe' #iedriver路径
 os.environ["webdriver.ie.driver"] = iedriver #设置环境变量
 driver = webdriver.Ie(iedriver)
 driver.get(url)
 driver.close()
-#11222  
+#2024-12-10
